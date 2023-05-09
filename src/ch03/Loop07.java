@@ -9,15 +9,17 @@ public class Loop07 {
         // 테스트 케이스 번호는 1부터 시작한다.
 
         Scanner sc = new Scanner(System.in);
+
         int T = sc.nextInt();
 
-        for(int i=1; i<=T; i++) {
+        for (int i = 1; i <= T; i++) {
             int A = sc.nextInt();
             int B = sc.nextInt();
 
-            System.out.println("Case #:"+ i +": "+ (A+B));
+            System.out.println("Case #" + i + ": " + (A + B));
         }
 
+        sc.close();
 
     }
 }
