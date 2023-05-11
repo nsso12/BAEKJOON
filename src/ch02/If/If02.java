@@ -21,5 +21,6 @@ public class If02 {
         } else {
             System.out.println("F");
         }
+        sc.close();
     }
 }
