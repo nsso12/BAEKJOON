@@ -8,14 +8,14 @@ public class Array02 {
         //X보다 작은 수를 입력받은 순서대로 공백으로 구분해 출력한다. X보다 작은 수는 적어도 하나 존재한다.
 
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int X = sc.nextInt();
-        int[] arr = new int[N];
+        int N = sc.nextInt();  // 배열 속 숫자의 갯수
+        int X = sc.nextInt();  // 배열 속 숫자와 비교할 숫자
+        int[] arr = new int[N];  // N개의 자리가 있는 배열 생성
 
         for(int i=0; i<N; i++) {
-            arr[i] = sc.nextInt();
+            arr[i] = sc.nextInt(); // 직접 입력 할 배열 속에 들어갈 숫자
             if(arr[i]<X) {
-                System.out.println(arr[i]);
+                System.out.print(arr[i] + " ");
             }
         }
 
