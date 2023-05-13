@@ -1,4 +1,4 @@
-package ch04;
+package ch04.Array;
 
 import java.io.IOException;
 import java.util.Scanner;
