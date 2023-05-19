@@ -7,7 +7,7 @@ public class Array06 {
     public static void main(String[] args) throws IOException {
         //공을 어떻게 바꿀지가 주어졌을 때, M번 공을 바꾼 이후에 각 바구니에 어떤 공이 들어있는지 구하는 프로그램을 작성하시오.
         //1번 바구니부터 N번 바구니에 들어있는 공의 번호를 공백으로 구분해 출력한다.
-        //추후 다시 풀어볼 예정
+        //추후 다시 풀어야 함
 
 
 
