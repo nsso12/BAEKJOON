@@ -9,8 +9,6 @@ public class Array06 {
         //1번 바구니부터 N번 바구니에 들어있는 공의 번호를 공백으로 구분해 출력한다.
         //추후 다시 풀어야 함
 
-
-
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt();
