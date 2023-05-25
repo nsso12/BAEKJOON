@@ -16,7 +16,7 @@ public class Loop07 {
             int A = sc.nextInt();
             int B = sc.nextInt();
 
-            System.out.println("Case #" + i + ": " + A + " + " + B + " = "+ (A + B));
+            System.out.println("Case #" + i + ": " + A + " + " + B + " = " + (A + B));
         }
 
         sc.close();
