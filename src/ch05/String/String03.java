@@ -12,9 +12,9 @@ public class String03 {
         for (int i = 0; i < num; i++) {
             String str = sc.next();
             System.out.println(str.charAt(0) + "" + str.charAt(str.length()-1));
-
         }
 
         sc.close();
+
     }
 }

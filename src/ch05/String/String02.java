@@ -12,5 +12,6 @@ public class String02 {
 
         System.out.println(str.length());
 
+
     }
 }
